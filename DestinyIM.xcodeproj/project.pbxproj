@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D1BA23D1BEBFE5A005EA989 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1BA23C1BEBFE5A005EA989 /* main.m */; };
+		8D1BA2401BEBFE5A005EA989 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1BA23F1BEBFE5A005EA989 /* AppDelegate.m */; };
+		8D1BA2431BEBFE5A005EA989 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1BA2421BEBFE5A005EA989 /* ViewController.m */; };
+		8D1BA2461BEBFE5A005EA989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BA2441BEBFE5A005EA989 /* Main.storyboard */; };
+		8D1BA2481BEBFE5A005EA989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BA2471BEBFE5A005EA989 /* Assets.xcassets */; };
+		8D1BA24B1BEBFE5A005EA989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BA2491BEBFE5A005EA989 /* LaunchScreen.storyboard */; };
+		8D1BA2561BEBFE5A005EA989 /* DestinyIMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1BA2551BEBFE5A005EA989 /* DestinyIMTests.m */; };
+		8D1BA2611BEBFE5A005EA989 /* DestinyIMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1BA2601BEBFE5A005EA989 /* DestinyIMUITests.m */; };
+		8D1BA26F1BEBFE73005EA989 /* Sinch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1BA26E1BEBFE73005EA989 /* Sinch.framework */; };
+		8D1BA2711BEBFE7D005EA989 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1BA2701BEBFE7D005EA989 /* AudioToolbox.framework */; };
+		8D1BA2731BEBFE81005EA989 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1BA2721BEBFE81005EA989 /* AVFoundation.framework */; };
+		8D1BA2751BEBFE87005EA989 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1BA2741BEBFE87005EA989 /* AVKit.framework */; };
+		8D1BA2771BEBFEA0005EA989 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1BA2761BEBFEA0005EA989 /* Security.framework */; };
+		8D1BA27B1BEBFF06005EA989 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1BA2781BEBFF06005EA989 /* Bolts.framework */; };
+		8D1BA27C1BEBFF06005EA989 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1BA2791BEBFF06005EA989 /* Parse.framework */; };
+		8D1BA27D1BEBFF06005EA989 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D1BA27A1BEBFF06005EA989 /* ParseUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D1BA2521BEBFE5A005EA989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D1BA2301BEBFE59005EA989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1BA2371BEBFE5A005EA989;
+			remoteInfo = DestinyIM;
+		};
+		8D1BA25D1BEBFE5A005EA989 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D1BA2301BEBFE59005EA989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1BA2371BEBFE5A005EA989;
+			remoteInfo = DestinyIM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D1BA2381BEBFE5A005EA989 /* DestinyIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DestinyIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1BA23C1BEBFE5A005EA989 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1BA23E1BEBFE5A005EA989 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D1BA23F1BEBFE5A005EA989 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D1BA2411BEBFE5A005EA989 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D1BA2421BEBFE5A005EA989 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D1BA2451BEBFE5A005EA989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D1BA2471BEBFE5A005EA989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D1BA24A1BEBFE5A005EA989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D1BA24C1BEBFE5A005EA989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1BA2511BEBFE5A005EA989 /* DestinyIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DestinyIMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1BA2551BEBFE5A005EA989 /* DestinyIMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DestinyIMTests.m; sourceTree = "<group>"; };
+		8D1BA2571BEBFE5A005EA989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1BA25C1BEBFE5A005EA989 /* DestinyIMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DestinyIMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1BA2601BEBFE5A005EA989 /* DestinyIMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DestinyIMUITests.m; sourceTree = "<group>"; };
+		8D1BA2621BEBFE5A005EA989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1BA26E1BEBFE73005EA989 /* Sinch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sinch.framework; sourceTree = "<group>"; };
+		8D1BA2701BEBFE7D005EA989 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8D1BA2721BEBFE81005EA989 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8D1BA2741BEBFE87005EA989 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		8D1BA2761BEBFEA0005EA989 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8D1BA2781BEBFF06005EA989 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		8D1BA2791BEBFF06005EA989 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		8D1BA27A1BEBFF06005EA989 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		8D1BA27F1BEBFF5A005EA989 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D1BA2351BEBFE5A005EA989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1BA2771BEBFEA0005EA989 /* Security.framework in Frameworks */,
+				8D1BA2751BEBFE87005EA989 /* AVKit.framework in Frameworks */,
+				8D1BA2731BEBFE81005EA989 /* AVFoundation.framework in Frameworks */,
+				8D1BA27C1BEBFF06005EA989 /* Parse.framework in Frameworks */,
+				8D1BA27B1BEBFF06005EA989 /* Bolts.framework in Frameworks */,
+				8D1BA2711BEBFE7D005EA989 /* AudioToolbox.framework in Frameworks */,
+				8D1BA27D1BEBFF06005EA989 /* ParseUI.framework in Frameworks */,
+				8D1BA26F1BEBFE73005EA989 /* Sinch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1BA24E1BEBFE5A005EA989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1BA2591BEBFE5A005EA989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D1BA22F1BEBFE59005EA989 = {
+			isa = PBXGroup;
+			children = (
+				8D1BA27E1BEBFF10005EA989 /* Frameworks */,
+				8D1BA23A1BEBFE5A005EA989 /* DestinyIM */,
+				8D1BA2541BEBFE5A005EA989 /* DestinyIMTests */,
+				8D1BA25F1BEBFE5A005EA989 /* DestinyIMUITests */,
+				8D1BA2391BEBFE5A005EA989 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D1BA2391BEBFE5A005EA989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1BA2381BEBFE5A005EA989 /* DestinyIM.app */,
+				8D1BA2511BEBFE5A005EA989 /* DestinyIMTests.xctest */,
+				8D1BA25C1BEBFE5A005EA989 /* DestinyIMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D1BA23A1BEBFE5A005EA989 /* DestinyIM */ = {
+			isa = PBXGroup;
+			children = (
+				8D1BA23E1BEBFE5A005EA989 /* AppDelegate.h */,
+				8D1BA23F1BEBFE5A005EA989 /* AppDelegate.m */,
+				8D1BA2411BEBFE5A005EA989 /* ViewController.h */,
+				8D1BA2421BEBFE5A005EA989 /* ViewController.m */,
+				8D1BA2441BEBFE5A005EA989 /* Main.storyboard */,
+				8D1BA2471BEBFE5A005EA989 /* Assets.xcassets */,
+				8D1BA2491BEBFE5A005EA989 /* LaunchScreen.storyboard */,
+				8D1BA24C1BEBFE5A005EA989 /* Info.plist */,
+				8D1BA23B1BEBFE5A005EA989 /* Supporting Files */,
+				8D1BA27F1BEBFF5A005EA989 /* Config.h */,
+			);
+			path = DestinyIM;
+			sourceTree = "<group>";
+		};
+		8D1BA23B1BEBFE5A005EA989 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D1BA23C1BEBFE5A005EA989 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D1BA2541BEBFE5A005EA989 /* DestinyIMTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D1BA2551BEBFE5A005EA989 /* DestinyIMTests.m */,
+				8D1BA2571BEBFE5A005EA989 /* Info.plist */,
+			);
+			path = DestinyIMTests;
+			sourceTree = "<group>";
+		};
+		8D1BA25F1BEBFE5A005EA989 /* DestinyIMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D1BA2601BEBFE5A005EA989 /* DestinyIMUITests.m */,
+				8D1BA2621BEBFE5A005EA989 /* Info.plist */,
+			);
+			path = DestinyIMUITests;
+			sourceTree = "<group>";
+		};
+		8D1BA27E1BEBFF10005EA989 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D1BA2781BEBFF06005EA989 /* Bolts.framework */,
+				8D1BA2791BEBFF06005EA989 /* Parse.framework */,
+				8D1BA27A1BEBFF06005EA989 /* ParseUI.framework */,
+				8D1BA2761BEBFEA0005EA989 /* Security.framework */,
+				8D1BA2741BEBFE87005EA989 /* AVKit.framework */,
+				8D1BA2721BEBFE81005EA989 /* AVFoundation.framework */,
+				8D1BA2701BEBFE7D005EA989 /* AudioToolbox.framework */,
+				8D1BA26E1BEBFE73005EA989 /* Sinch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1BA2371BEBFE5A005EA989 /* DestinyIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D1BA2651BEBFE5A005EA989 /* Build configuration list for PBXNativeTarget "DestinyIM" */;
+			buildPhases = (
+				8D1BA2341BEBFE5A005EA989 /* Sources */,
+				8D1BA2351BEBFE5A005EA989 /* Frameworks */,
+				8D1BA2361BEBFE5A005EA989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DestinyIM;
+			productName = DestinyIM;
+			productReference = 8D1BA2381BEBFE5A005EA989 /* DestinyIM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D1BA2501BEBFE5A005EA989 /* DestinyIMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D1BA2681BEBFE5A005EA989 /* Build configuration list for PBXNativeTarget "DestinyIMTests" */;
+			buildPhases = (
+				8D1BA24D1BEBFE5A005EA989 /* Sources */,
+				8D1BA24E1BEBFE5A005EA989 /* Frameworks */,
+				8D1BA24F1BEBFE5A005EA989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D1BA2531BEBFE5A005EA989 /* PBXTargetDependency */,
+			);
+			name = DestinyIMTests;
+			productName = DestinyIMTests;
+			productReference = 8D1BA2511BEBFE5A005EA989 /* DestinyIMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D1BA25B1BEBFE5A005EA989 /* DestinyIMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D1BA26B1BEBFE5A005EA989 /* Build configuration list for PBXNativeTarget "DestinyIMUITests" */;
+			buildPhases = (
+				8D1BA2581BEBFE5A005EA989 /* Sources */,
+				8D1BA2591BEBFE5A005EA989 /* Frameworks */,
+				8D1BA25A1BEBFE5A005EA989 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D1BA25E1BEBFE5A005EA989 /* PBXTargetDependency */,
+			);
+			name = DestinyIMUITests;
+			productName = DestinyIMUITests;
+			productReference = 8D1BA25C1BEBFE5A005EA989 /* DestinyIMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D1BA2301BEBFE59005EA989 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Michael Smith";
+				TargetAttributes = {
+					8D1BA2371BEBFE5A005EA989 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					8D1BA2501BEBFE5A005EA989 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8D1BA2371BEBFE5A005EA989;
+					};
+					8D1BA25B1BEBFE5A005EA989 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 8D1BA2371BEBFE5A005EA989;
+					};
+				};
+			};
+			buildConfigurationList = 8D1BA2331BEBFE59005EA989 /* Build configuration list for PBXProject "DestinyIM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D1BA22F1BEBFE59005EA989;
+			productRefGroup = 8D1BA2391BEBFE5A005EA989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1BA2371BEBFE5A005EA989 /* DestinyIM */,
+				8D1BA2501BEBFE5A005EA989 /* DestinyIMTests */,
+				8D1BA25B1BEBFE5A005EA989 /* DestinyIMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1BA2361BEBFE5A005EA989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1BA24B1BEBFE5A005EA989 /* LaunchScreen.storyboard in Resources */,
+				8D1BA2481BEBFE5A005EA989 /* Assets.xcassets in Resources */,
+				8D1BA2461BEBFE5A005EA989 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1BA24F1BEBFE5A005EA989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1BA25A1BEBFE5A005EA989 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D1BA2341BEBFE5A005EA989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1BA2431BEBFE5A005EA989 /* ViewController.m in Sources */,
+				8D1BA2401BEBFE5A005EA989 /* AppDelegate.m in Sources */,
+				8D1BA23D1BEBFE5A005EA989 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1BA24D1BEBFE5A005EA989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1BA2561BEBFE5A005EA989 /* DestinyIMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1BA2581BEBFE5A005EA989 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1BA2611BEBFE5A005EA989 /* DestinyIMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D1BA2531BEBFE5A005EA989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1BA2371BEBFE5A005EA989 /* DestinyIM */;
+			targetProxy = 8D1BA2521BEBFE5A005EA989 /* PBXContainerItemProxy */;
+		};
+		8D1BA25E1BEBFE5A005EA989 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1BA2371BEBFE5A005EA989 /* DestinyIM */;
+			targetProxy = 8D1BA25D1BEBFE5A005EA989 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D1BA2441BEBFE5A005EA989 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D1BA2451BEBFE5A005EA989 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D1BA2491BEBFE5A005EA989 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D1BA24A1BEBFE5A005EA989 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D1BA2631BEBFE5A005EA989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D1BA2641BEBFE5A005EA989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D1BA2661BEBFE5A005EA989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DestinyIM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-Xlinker",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sithmods.DestinyIM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D1BA2671BEBFE5A005EA989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DestinyIM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-Xlinker",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sithmods.DestinyIM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D1BA2691BEBFE5A005EA989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DestinyIMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sithmods.DestinyIMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DestinyIM.app/DestinyIM";
+			};
+			name = Debug;
+		};
+		8D1BA26A1BEBFE5A005EA989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DestinyIMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sithmods.DestinyIMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DestinyIM.app/DestinyIM";
+			};
+			name = Release;
+		};
+		8D1BA26C1BEBFE5A005EA989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DestinyIMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sithmods.DestinyIMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DestinyIM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8D1BA26D1BEBFE5A005EA989 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DestinyIMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sithmods.DestinyIMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DestinyIM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D1BA2331BEBFE59005EA989 /* Build configuration list for PBXProject "DestinyIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1BA2631BEBFE5A005EA989 /* Debug */,
+				8D1BA2641BEBFE5A005EA989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D1BA2651BEBFE5A005EA989 /* Build configuration list for PBXNativeTarget "DestinyIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1BA2661BEBFE5A005EA989 /* Debug */,
+				8D1BA2671BEBFE5A005EA989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D1BA2681BEBFE5A005EA989 /* Build configuration list for PBXNativeTarget "DestinyIMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1BA2691BEBFE5A005EA989 /* Debug */,
+				8D1BA26A1BEBFE5A005EA989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D1BA26B1BEBFE5A005EA989 /* Build configuration list for PBXNativeTarget "DestinyIMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1BA26C1BEBFE5A005EA989 /* Debug */,
+				8D1BA26D1BEBFE5A005EA989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D1BA2301BEBFE59005EA989 /* Project object */;
+}
